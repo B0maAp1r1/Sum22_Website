@@ -9,8 +9,11 @@
     }
   },
   "profiles": {
-    "http": {
-      "commandName": "Project",
+    "Sum22_Website-http": {
+      "executablePath": "dotnet.exe",
+      "workingDirectory": "$(ProjectDir)",
+      "commandLineArgs": "watch run",
+      "commandName": "Executable",
       "dotnetRunMessages": true,
       "launchBrowser": true,
       "applicationUrl": "http://localhost:5136",
@@ -18,7 +21,7 @@
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
     },
-    "https": {
+    "Sum22-Website": {
       "commandName": "Project",
       "dotnetRunMessages": true,
       "launchBrowser": true,

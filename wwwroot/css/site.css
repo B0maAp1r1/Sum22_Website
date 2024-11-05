@@ -20,3 +20,8 @@ html {
 body {
   margin-bottom: 60px;
 }
+
+.login_image{
+    height: 500px;
+    width: 750px;
+}
